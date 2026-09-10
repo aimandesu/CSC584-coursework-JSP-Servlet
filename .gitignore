@@ -1,0 +1,54 @@
+### --- IDE and Editor Specifics ---
+
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp 
+
+### --- Build and Target Directories ---
+
+target/
+build/
+bin/
+out/
+dist/ 
+
+### --- Artifacts and Deployables ---
+
+*.war
+*.ear
+*.jar
+*.rar
+*.zip
+*.tar.gz 
+
+### --- Log Files ---
+
+*.log
+logs/ 
+
+### --- OS Specific Files ---
+
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Desktop.ini 
+
+### --- Server / Runtime Temp Directories ---
+
+### Excludes local server configurations, deployment caches, and work directories (e.g., Apache Tomcat)
+
+.metadata/
+Servers/
+Work/
+work/
+deployment/
